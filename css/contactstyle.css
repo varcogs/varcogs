@@ -1,0 +1,357 @@
+/* css for contact*/
+.career
+{
+margin-top: 150px;
+    border-top: 4px solid #0066FF;
+}
+.career h3
+{
+color:#0066FF;
+font-weight:800;
+font-size:28px;
+}
+.career1 span
+{
+color:red;
+text-align:right;
+}
+.career2
+{
+margin-top:50px;
+}
+.career2 a
+{
+border:1px solid;
+padding:10px;
+color:#FFFFFF;
+background-color:#0066FF;
+margin-top:50px;
+}
+.form-control 
+{
+  border-radius:0px;
+  background-color:#EEF3F3;
+  /*margin-top:20px;*/
+}
+.more a
+{
+margin-right:18px;
+}
+.row-top
+{
+	margin-top:5px;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+
+.border-space
+{
+padding:10px;
+}
+.all-border
+{
+ border:2px solid #CCCCCC;
+ margin-top:10px;
+ margin-bottom:10px; 
+ max-width:999px;
+}
+/******* media query***********/
+@media (max-width:767px)
+{
+	.all-border
+	{
+	 border:0px solid #CCCCCC;
+	 margin-top:10px;  
+	} 
+    .form-control 
+	{
+	  border-radius:0px;
+	  background-color:#CCCCCC;
+	  margin-bottom:5px;
+	}
+	.form-group 
+	{
+	   margin-bottom: 15px;
+	   padding: 10px;
+	}	
+}
+
+/*--------------------------vacrocareer-------------------------------*/
+.career
+{
+margin-top:120px;
+border-top:5px solid #0066FF;
+}
+.career h3
+{
+color:#0066FF;
+font-weight:800;
+}
+.career1 span
+{
+color:red;
+text-align:right;
+}
+.career2
+{
+margin-top:50px;
+}
+.career2 a
+{
+border:1px solid;
+padding:10px;
+color:#FFFFFF;
+background-color:#0066FF;
+margin-top:50px;
+}
+.form-control 
+{
+  border-radius:0px;
+  background-color:#eeeeee;
+  border:0px solid #eeeeee
+  /*margin-top:20px;*/
+}
+.more a
+{
+margin-right:18px;
+}
+/* css for contact*/
+.border-space
+{
+padding:10px;
+}
+.all-border
+{
+ border:2px solid #CCCCCC;
+ margin-top:10px; 
+ margin-bottom:10px;
+}
+@media (max-width:767px)
+{
+  .all-border
+{
+ border:0px solid #CCCCCC;
+ margin-top:10px; 
+}  
+  
+}
+/* css for expert page*/
+.expert-group
+{
+	margin-bottom:10px;
+}
+.area-expert
+{
+	width:208px;
+	padding:20px;
+	display:inline-block;
+	
+}
+.all-expert
+{
+	width:216px;
+	padding:10px;
+	display:inline-block;
+}
+.year
+{
+   width:108px;
+	padding:10px;
+	display:inline-block;	
+}
+.row-space
+{
+ margin:-18px 0; 	
+}
+.div-space
+{
+	padding:13px;
+}
+.row-top
+{
+	margin-top:5px;
+}
+label
+{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 13px;
+}
+.top-fee
+{
+	margin-top:25px;
+}
+
+@media (max-width:767px)
+{
+.form-control 
+{
+  border-radius:0px;
+  background-color:#CCCCCC;
+  margin-bottom:5px;
+}
+.form-group {
+    margin-bottom: 15px;
+    
+}
+.div-space
+{
+	padding:5px;
+}
+
+}
+@media (min-width:320px) and (max-width:359px)
+{ 
+  	.area-expert
+{
+	width:94%;
+	padding:20px;
+	margin-left:0;
+	margin-top: 14px;
+   margin-bottom: -16px;
+	
+}
+.all-expert
+{
+	width:96%;
+	padding:10px;
+	margin-left:7px;
+	margin-bottom:-19px;
+}
+.year
+{
+   width:96%;
+	padding:10px;
+	margin-left:7px;
+    margin-bottom:-19px;	
+}
+	
+}
+@media (min-width:360px) and (max-width:450px)
+{ 
+  	.area-expert
+{
+	width:94%;
+	padding:20px;
+	margin-left:0;
+	margin-top: 14px;
+   margin-bottom: -16px;
+	
+}
+.all-expert
+{
+	width:97%;
+	padding:10px;
+	margin-left:7px;
+	margin-bottom:-19px;
+}
+.year
+{
+   width:97%;
+	padding:10px;
+	margin-left:7px;
+    margin-bottom:-19px;	
+}
+	
+}
+@media (min-width:520px) and (max-width:767px)
+{
+ .top-fee {
+    margin-top: 36px;
+}	
+	.area-expert
+{
+	width:94%;
+	padding:20px;
+	margin-left:7px;
+	margin-top: 14px;
+   margin-bottom: -16px;	
+}
+.all-expert
+{
+	width:98%;
+	padding:10px;
+	margin-left:6px;
+	margin-bottom:-19px;
+}
+.year
+{
+    width:98%;
+	padding:10px;
+	margin-left:6px;
+    margin-bottom:-19px;	
+}
+	
+}
+
+@media (min-width:768px) and (max-width:991px)
+{
+label
+{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 12px;
+}
+	.area-expert
+{
+	width:206px;
+	padding:19px;
+	display:inline-block;
+	
+}
+.all-expert
+{
+	width:107px;
+	padding:10px;
+	display:inline-block;
+}
+.year
+{
+   width:90px;
+	padding:10px;
+	display:inline-block;	
+}
+}
+@media (min-width:992px) and (max-width:1199px)
+{
+	.area-expert
+{
+	width:187px;
+	padding:20px;
+	display:inline-block;
+	
+}
+.all-expert
+{
+	width:175px;
+	padding:10px;
+	display:inline-block;
+}
+.year
+{
+   width:88px;
+	padding:10px;
+	display:inline-block;	
+}
+}
+/************** Partner page***************/
+#year
+{
+	font-size:15px;
+	font-weight:400;
+	padding-top:7px;
+}
+.buss-top
+{
+	margin-top:5px;
+}

@@ -1,0 +1,132 @@
+.c24-accordion-tiles{padding:30px 0 0!important;background:#00a8c8;letter-spacing:-5px;overflow:hidden}
+.c24-accordion-tiles__headline{margin-bottom:20px;color:#fff;letter-spacing:0;text-transform:none}
+.c24-accordion-tiles__item,.c24-accordion-tiles__item:last-child{margin-bottom:20px;position:static;display:inline-block;float:none!important;vertical-align:top;letter-spacing:0}
+.c24-accordion-tiles__article{height:173px;padding:1px 20px 10px 20px;color:#404040;background:#fff;-webkit-box-shadow:0 1px 2px 0 rgba(0,0,0,0.3);box-shadow:0 1px 2px 0 rgba(0,0,0,0.3);position:relative}
+.c24-accordion-tiles__article__title{height:30px;margin-bottom:10px;font-size:16px;font-family: 'Lato', sans-serif;font-weight:700;}
+.c24-accordion-tiles__article__copy{margin-bottom:27px;height:83px;font-size:14px;font-family: 'Lato', sans-serif;overflow:hidden}
+.c24-accordion-tiles__anchor{text-transform:uppercase;color:#00a8c8;   font-family: 'Lato', sans-serif;position:relative;    top:-26px; left:5px;display:block;}
+.c24-accordion-tiles__anchor:before,.c24-accordion-tiles__anchor:after{width:2px;height:14px;background-color:#00a8c8;content:"";position:absolute;top:0;right:6px}
+.c24-accordion-tiles__anchor:before{width:14px;height:2px;top:6px;right:0}
+.c24-accordion-tiles__item.active .c24-accordion-tiles__anchor:after{display:none}
+.c24-accordion-tiles__item.active .c24-accordion-tiles__article:after{margin-left:-10px;border-width:20px;content:"";display:block;height:0;width:0;border-color:#fff transparent transparent transparent;position:absolute;bottom:-40px;left:50%;z-index:200;border-style:solid}
+.c24-accordion-tiles__expanded{width:100%!important;padding:30px 20px 20px 20px;color:#fff;font-size:14px;line-height:18px;background:#006d9e;position:absolute;top:0;left:.9375em;display:none}
+.c24-accordion-tiles__expanded p{margin-bottom:15px; font-family: 'Lato',sans-serif;text-align:justify;}
+@media only screen and (min-width:320px) and (max-width:639px){.c24-accordion-tiles{padding:30px 10px}
+}
+.global-07__grid{margin-bottom:20px;letter-spacing:-5px}
+.global-07__item{margin-bottom:10px;display:inline-block;vertical-align:top;float:none!important;letter-spacing:0}
+.global-07__item.no-results{width:100%;padding:50px 20px!important;font:normal 18px/22px 'ProximaNovaBold';color:#606060}
+.global-07__article{padding:15px 0 10px 0;background:#fff;border-width:3px;border-top-style:solid;border-color:#fff;-webkit-box-shadow:0 1px 2px 0 rgba(0,0,0,0.4);box-shadow:0 1px 2px 0 rgba(0,0,0,0.4)}
+.global-07__article .kicker{padding:0 40px 0 20px;margin-bottom:7px}
+.global-07__title{height:40px;margin-bottom:10px;padding:0 40px 0 20px;font-size:18px;line-height:20px;color:#006d9e;overflow:hidden}
+.global-07__article a:hover .global-07__title{color:#00a8c8}
+.global-07__article p{width:85%;height:120px;margin-bottom:10px;padding:0 0 0 20px;color:#404040;font-size:16px;line-height:20px;overflow:hidden}
+.global-07__cta{margin:15px}
+.global-07__image{width:100%;height:200px;margin-bottom:20px;background-size:cover;background-position:center top;background-repeat:no-repeat}
+.global-07__img{margin-bottom:20px}
+.global-07__list .global-07__item{margin-bottom:0;padding:20px 0;border-bottom:1px solid #c5c6c5}
+.global-07__meta{height:45px;overflow:hidden}
+.global-07__date,.global-07__section,.global-07__location{padding:0 40px 0 20px;color:#606060;font-size:14px;line-height:16px;display:block}
+.global-07__number{margin-top:5px;color:#9f9f9f;font:normal 36px/40px 'ProximaNovaBold';display:block}
+.global-07__anchor{display:block}
+.global-07__anchor:hover .global-07__title,.global-07__anchor:hover p,.global-07__anchor:hover .kicker{color:#00a8c8;transition:color 300ms ease-out}
+.global-07__anchor .kicker{margin-bottom:5px;color:#9f9f9f}
+.global-07__list .global-07__title{height:auto;margin-bottom:5px;padding:0;color:#606060;overflow:inherit}
+.global-07__list .global-07__section,.global-07__list .global-07__date,.global-07__list .global-07__location{padding:0}
+.global-07__list p{margin-bottom:0;color:#404040;font-size:16px;line-height:18px}
+@media only screen and (min-width:320px) and (max-width:639px){.global-07__image{height:175px}
+}
+@media only screen and (min-width:640px) and (max-width:959px) and (orientation:portrait){.global-07__image{height:150px}
+}
+#contactForm{padding:60px 0 30px}
+.form{margin:20px 0}
+.form h2{font:inherit}
+.form__fieldset{margin-bottom:10px!important}
+.form__fieldset .columns{padding-right:.9375em!important}
+.form__input{width:100%;padding:6px;border:1px solid #fbae17;color:#333;font-size:14px;line-height:14px;font-family:'ProximaNovaRegular'}
+.form__textarea{min-height:120px;margin-bottom:0!important}
+.file-upload-container{position:relative}
+.form__upload{display:inline}
+.file-upload{padding:7px 15px;text-align:center;background:#808080;font:normal 14px/14px "ProximaNovaBold";text-transform:uppercase;color:#fff;overflow:hidden;white-space:nowrap;vertical-align:middle;cursor:pointer;display:inline-block;position:absolute;top:0;right:0}
+.file-upload input.upload{position:absolute;top:0;right:0;margin:0;padding:0;font-size:20px;cursor:pointer;opacity:0;filter:alpha(opacity=0)}
+.form__select__container{width:100%;height:28px;background:#fff;border:1px solid #fbae17;overflow:hidden;position:relative}
+.form__select__container:after{border:inset 9px;border-width:8px 5px 5px 5px;content:"";display:block;height:0;width:0;border-color:#7fb6ce transparent transparent transparent;position:absolute;top:10px;right:10px;border-style:solid;margin-left:-6px}
+.form__select{width:100%;height:28px;padding:5px 10px;background:transparent;border:0;border-radius:0;-webkit-appearance:none;-moz-appearance:none;appearance:none;color:#333;font-family:'ProximaNovaRegular';font-size:14px;line-height:14px}
+.form__agreement{margin:15px 0 20px}
+.form__agreement a{color:#006d9e;text-decoration:underline}
+.form__agreement a:hover,.form__agreement a:active,.form__agreement a:focus{color:#00a8c8}
+.form__agreement p{display:inline}
+.form-error{margin:5px 0 10px 0;color:#ed2c67;font:normal 14px/14px 'ProximaNovaBold';display:none}
+.form-error.filelimit,.form-error.fileformat{margin-top:0}
+.form-note{font:normal 14px/14px 'ProximaNovaRegular';color:#606060}
+.form-thankyou{margin-top:30px;display:none}
+.form-thankyou__message{margin-bottom:5px!important;padding-top:20px;font:normal 18px/22px 'ProximaNovaBold';color:#606060;border-top:1px solid #ccc}
+.form ul,.form ol{margin-bottom:inherit;margin-left:0;list-style-position:outside}
+.form ul{list-style-type:none}
+.formol{list-style-type:none}
+.form li{margin-bottom:inherit}
+.social-signin{margin-bottom:20px;color:#303030}
+.social-signin span{margin-bottom:5px;display:block;vertical-align:top!important}
+.social-signin__anchor{min-width:190px;margin-right:10px;margin-bottom:5px;padding:5px;font:normal 14px/14px 'ProximaNovaBold';text-transform:uppercase;color:#fff!important;display:inline-block;vertical-align:top;transition:all 300ms ease-out}
+.social-signin__anchor:hover,.social-signin__anchor:focus,.social-signin__anchor:active{background:#00a8c8;color:#fff}
+.social-signin__anchor .icon{font-size:15px;vertical-align:text-bottom}
+.social-signin__linkedin{background:#007ab8}
+.social-signin__facebook{background:#39539f}
+.social-signedin{margin-bottom:20px;padding:10px 15px 10px 10px;background:#002c77;border-radius:4px;-webkit-border-radius:4px;color:#fff;font:normal 16px/16px 'ProximaNovaBold';display:inline-block}
+.social-signedin__avatar{width:50px;height:50px;margin-right:15px;overflow:hidden;float:left}
+.social-signedin__avatar img{width:100%}
+.social-signedin__user{margin-top:15px;float:left}
+.social-signedin__user a{color:#00a8c8}
+::-webkit-input-placeholder{color:#333}
+:-moz-placeholder{color:#333;opacity:1}
+::-moz-placeholder{color:#333;opacity:1}
+:-ms-input-placeholder{color:#333}
+@media only screen and (min-width:320px) and (max-width:639px){.form{margin-top:0}
+.form .align-right{text-align:left}
+.form__fieldset{margin-bottom:0!important}
+.form__fieldset>.columns{width:100%;margin-bottom:10px}
+.section--rfp{padding:35px 10px 50px 10px}
+.section--rfp__title{text-transform:none;font:normal 18px/18px 'ProximaNovaRegular';letter-spacing:0}
+}
+@media only screen and (min-width:640px) and (max-width:959px){.form{padding-bottom:20px}
+}
+.carousel-c06__feeds{padding:100px 0 30px 0}
+.carousel-c06__item{padding:0 80px}
+.carousel-c06--left{text-align:center}
+.carousel-c06__thumb{max-width:150px;margin:0 auto 12px auto;-webkit-border-radius:170px;border-radius:170px;overflow:hidden}
+.carousel-c06__description{font:normal 14px/16px 'ProximaNovaRegular'}
+.carousel-c06--btn{min-width:inherit;margin-top:7px;padding:8px 20px 7px 20px}
+.carousel-c06--kicker{margin-bottom:9px}
+.module--group__headline--carousel-c06{margin-bottom:7px;font-family:'ProximaNovaRegular'}
+.module--group__copy--carousel-c06{font-size:16px;line-height:22px}
+.carousel-c06__item .carousel-c06--left{float:left}
+.carousel-c06__item .carousel-c06--right{float:right}
+.carousel-c06__item--right .carousel-c06--left{float:right}
+.carousel-c06__item--right .carousel-c06--right{float:left}
+.carousel-c06__feeds .owl-prev{left:10px}
+.carousel-c06__feeds .owl-next{right:10px}
+.d-careers .carousel-c06__item{padding:0 40px}
+.d-careers__carousel-c06 .content--main__subhead{padding:0 50px}
+@media only screen and (min-width:320px) and (max-width:639px){.carousel-c06__item{padding:0 40px 20px 40px}
+.carousel-c06__feeds .slick-arrow{display:none!important}
+}
+@media only screen and (min-width:640px) and (max-width:959px){.carousel-c06__item .btn{min-width:auto}
+}
+.carousel-c27{padding-bottom:30px}
+.carousel-c27__feeds{margin:31px 10px 0 10px;padding:0 45px}
+.carousel-c27__item{color:#606060}
+.carousel-c27__article{min-height:230px;margin:0 10px 10px 10px;padding:20px;background:#fff;-webkit-box-shadow:0 2px 2px 0 rgba(0,0,0,0.25);box-shadow:0 2px 2px 0 rgba(0,0,0,0.25);border-width:3px;border-top-style:solid;border-color:#fff}
+.carousel-c27__article p{height:110px;color:#333;overflow:hidden}
+.kick--carousel-c27{margin-bottom:10px}
+.carousel-c27__title{max-height:40px;margin-bottom:10px;overflow:hidden}
+.carousel-c27__date{color:#606060;font-size:13px;display:none}
+.carousel-c27 .color--solutions{color:#606060}
+.carousel-c27 .color--roles{color:#606060}
+.carousel-c27 .color--leadership{color:#606060}
+.carousel-c27 .color--business{color:#606060}
+.carousel-c27 .color--careers{color:#606060}
+@media only screen and (min-width:320px) and (max-width:639px){.carousel-c27__feeds{padding:0 15px}
+.carousel-c27__feeds .slick-arrow{display:none!important}
+}
+.quote{margin-bottom:25px;font:normal 18px/20px 'ProximaNovaRegular';color:#006d9e}
+.quote--large{font:normal 24px/29px 'ProximaNovaRegular'}

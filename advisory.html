@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>About-us | VARCO </title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="img/favicon.png" rel="icon">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/template.css" rel="stylesheet">
+        <link href="css/jquery.bxslider.css" rel="stylesheet" />
+        <link href="css/clientlibs1.min.css" rel="stylesheet" />
+        <link href="css/clientlibs.min.css" rel="stylesheet" />
+
+        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $("#home").hide();
+                $("#menu1").hide();
+                $("#menu2").hide();
+                $("#menu3").hide();
+                $("#menu4").hide();
+                $("#menu5").hide();
+                $("#menu6").hide();
+                $("#menu7").hide();
+                $("#menu8").hide();
+                $("#menu9").hide();
+                $(".sector").hide();
+                $(".sector-2").hide();
+                $(".sector-3").hide();
+                $(".sector-4").hide();
+
+
+                $(".home").click(function () {
+                    $("#home").show();
+                    $(".sector").show();
+                    $("#menu1").hide();
+                    $("#menu2").hide();
+                    $("#menu3").hide();
+                    $("#menu4").hide();
+                    $("#menu5").hide();
+                    $("#menu6").hide();
+                    $("#menu7").hide();
+                    $("#menu8").hide();
+                    $("#menu9").hide();
+                    $(".sector-2").hide();
+                    $(".sector-3").hide();
+                    $(".sector-4").hide();
+
+                });
+                $(".menu1").click(function () {
+                    $(".sector").show();
+                    $("#home").hide();
+                    $("#menu1").show();
+                    $("#menu2").hide();
+                    $("#menu3").hide();
+                    $("#menu4").hide();
+                    $("#menu5").hide();
+                    $("#menu6").hide();
+                    $("#menu7").hide();
+                    $("#menu8").hide();
+                    $("#menu9").hide();
+                    $(".sector-2").hide();
+                    $(".sector-3").hide();
+                    $(".sector-4").hide();
+                });
+                $(".menu2").click(function () {
+                    $("#home").hide();
+                    $(".sector").show();
+                    $("#menu1").hide();
+                    $("#menu2").show();
+                    $("#menu3").hide();
+                    $("#menu4").hide();
+                    $("#menu5").hide();
+                    $("#menu6").hide();
+                    $("#menu7").hide();
+                    $("#menu8").hide();
+                    $("#menu9").hide();
+                    $(".sector-2").hide();
+                    $(".sector-3").hide();
+                    $(".sector-4").hide();
+                });
+                $(".menu3").click(function () {
+                    $("#home").hide();
+                    $("#menu1").hide();
+                    $(".sector-2").show();
+                    $(".sector").hide();
+                    $(".sector-3").hide();
+                    $("#menu2").hide();
+                    $("#menu3").show();
+                    $("#menu4").hide();
+                    $("#menu5").hide();
+                    $("#menu6").hide();
+                    $("#menu7").hide();
+                    $("#menu8").hide();
+                    $("#menu9").hide();
+                    $(".sector-4").hide();
+                });
+                $(".menu4").click(function () {
+                    $("#home").hide();
+                    $("#menu1").hide();
+                    $("#menu2").hide();
+                    $("#menu3").hide();
+                    $("#menu4").show();
+                    $("#menu5").hide();
+                    $(".sector-2").show();
+                    $(".sector").hide();
+                    $(".sector-3").hide();
+                    $("#menu6").hide();
+                    $("#menu7").hide();
+                    $("#menu8").hide();
+                    $("#menu9").hide();
+                    $(".sector-4").hide();
+                });
+                $(".menu5").click(function () {
+                    $("#home").hide();
+                    $("#menu1").hide();
+                    $("#menu2").hide();
+                    $("#menu3").hide();
+                    $(".sector-2").show();
+                    $(".sector").hide();
+                    $(".sector-3").hide();
+                    $("#menu4").hide();
+                    $("#menu5").show();
+                    $("#menu6").hide();
+                    $("#menu7").hide();
+                    $("#menu8").hide();
+                    $("#menu9").hide();
+                    $(".sector-4").hide();
+                });
+                $(".menu6").click(function () {
+                    $("#home").hide();
+                    $("#menu1").hide();
+                    $("#menu2").hide();
+                    $("#menu3").hide();
+                    $("#menu4").hide();
+                    $(".sector-3").show();
+                    $(".sector").hide();
+                    $(".sector-2").hide();
+                    $("#menu5").hide();
+                    $("#menu6").show();
+                    $("#menu7").hide();
+                    $("#menu8").hide();
+                    $("#menu9").hide();
+                    $(".sector-4").hide();
+
+                });
+                $(".menu7").click(function () {
+                    $("#home").hide();
+                    $("#menu1").hide();
+                    $("#menu2").hide();
+                    $("#menu3").hide();
+                    $("#menu4").hide();
+                    $("#menu5").hide();
+                    $("#menu6").hide();
+                    $("#menu7").show();
+                    $("#menu8").hide();
+                    $("#menu9").hide();
+                    $(".sector-2").hide();
+                    $(".sector").hide();
+                    $(".sector-3").show();
+                    $(".sector-4").hide();
+                });
+                $(".menu8").click(function () {
+                    $("#home").hide();
+                    $("#menu1").hide();
+                    $("#menu2").hide();
+                    $("#menu3").hide();
+                    $("#menu4").hide();
+                    $("#menu5").hide();
+                    $("#menu6").hide();
+                    $("#menu7").hide();
+                    $("#menu8").show();
+                    $("#menu9").hide();
+                    $(".sector-2").hide();
+                    $(".sector").hide();
+                    $(".sector-3").show();
+                    $(".sector-4").hide();
+                });
+                
+                $(".menu9").click(function () {
+                    $("#home").hide();
+                    $("#menu1").hide();
+                    $("#menu2").hide();
+                    $("#menu3").hide();
+                    $("#menu4").hide();
+                    $("#menu5").hide();
+                    $("#menu6").hide();
+                    $("#menu7").hide();
+                    $("#menu8").hide();
+                    $("#menu9").show();
+                    $(".sector-2").hide();
+                    $(".sector").hide();
+                    $(".sector-3").hide();
+                    $(".sector-4").show();
+                });
+
+            });
+        </script>
+        <style>
+        .home,.menu1,.menu2,.menu3,.menu4,.menu5,.menu6,.menu7,.menu8,.menu9{cursor:pointer;}
+            .about_sec{background: #eef3f3;padding:15px;font-size:14px;}
+            p.team {
+                background-color: #0066cc;
+                color: white;
+                padding: 10px 10px;
+                font-size: 13px;
+            }
+            .about-add{ padding: 1px 2px;}
+
+            p > b{font-size: 16px;
+                  padding-top: 25px;}
+
+            .sector{background: #006d9e; color: #fff;}
+            .sector-2, .sector-3, .sector-4{
+                background: #006d9e;
+                color: #fff;
+            }
+            .sector p,.sector-3 p{
+                line-height: 22px;
+                font-size: 13px;
+                text-align: justify;}
+            .sector-2 p{
+                line-height: 22px;
+                font-size: 13px;
+                text-align: justify;}
+            .vprofile{ padding: 20px 0px;}
+
+            .profile-color{color: #cb0004;}
+
+
+            .active:before{margin-left: -25px;
+                           border-width: 20px;
+                           content: "";
+                           display: block;
+                           height: 0;
+                           width: 0;
+                           border-color: #fff transparent transparent transparent;
+                           position: absolute;
+                           bottom: -40px;
+                           left: 50%;
+                           z-index: 200;
+                           border-style: solid;}
+            </style>
+
+
+
+
+
+        </head>
+        <body>
+
+            <div id="wrap">
+
+
+
+            <!--Head Wrap Start-->    
+            <div class="container-fluid" style="padding:0px !important">
+                <div class="row" >
+                    <div id="header" >
+                        <div id="head_wrap">
+                            <div class="col-sm-3">
+                                <div class="logo">
+                                    <img src="img/logo.png">
+                                </div>
+                            </div>
+                            <div class="col-sm-9" >
+
+                                <div class="top">
+
+                                    <span>
+                                        <a href="#"><img src="img/facebook.png" alt="facebook page "></a> 
+                                        <a href="#"><img src="img/linkedin.png" alt="Linkedin page "></a></span>
+                                </div>
+
+
+                                <nav class="navbar navbar-inverse">
+                                    <div class="container-fluid">
+                                        <div class="navbar-header">
+                                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>                        
+                                            </button>
+
+                                        </div>
+                                        <div class="collapse navbar-collapse" id="myNavbar">
+                                            <ul class="nav navbar-nav">
+                                                <li><a href="index.html" >Home</a></li>
+                                                <li><a href="About-us.html" class="active">About us</a></li>
+
+                                                <li class="dropdown "><a href="#" class="dropbtn ">Services<span class="caret"></span></a>
+                                                    <div class="dropdown-content">
+                                                        <a href="bc.html">Business Consulting</a>
+                                                        <a href="me.html">Market Entry Services</a>
+                                                        <a href="hsc.html">Human Capital Solutions</a>
+                                                    </div>
+
+
+                                                </li>
+                                                <li><a href="sectors.html" >Sectors</a></li>
+                                                <li class="dropdown "><a  class="dropbtn" href="#">Join Us<span class="caret"></a>
+                                                    <div class="dropdown-content">
+                                                        <a href="partners-form.php"> Partners</a>
+                                                        <a href="experts-form.php"> Consultants & Trainers </a>
+                                                        <a href="career-form.php">Careers</a>
+                                                    </div>
+                                                </li>
+
+
+                                                <li ><a href="contact.html">Contact us</a></li>
+
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </nav>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--Head Wrap End-->
+            <div class="clearfix"></div>
+            <div class="container">
+                <div class="col-sm-12 topcommon">
+
+                    <div class="col-sm-12 about-test padding-zero">
+                        <div class="border"></div>
+                        <h3 class="abut-head about">Advisory Panel</h3>
+
+
+                    </div>
+                    <div class="spcae-width-clear-fix"></div>
+                    <br/>
+
+
+                    <div class="col-md-12 " >
+
+
+                        <a class="home" >
+                            <div class=" col-md-4 ">
+                                <p align="center"><img src="img/team/v.png" class="img-responsive" /></p>
+                                <p align="center"><b class="profilename">Vijay Ghei</b></p>
+                            </div>
+                        </a>
+
+                        <a class="menu1" ><div class=" col-md-4 "><p align="center"><img src="img/team/a.png" class="img-responsive" /></p>
+                                <p align="center"><b class="aprofilename">Ajit Mulla </b></p>
+                            </div></a>
+
+                        <a class="menu2" ><div class=" col-md-4 ">	<p align="center"><img src="img/team/j.png" class="img-responsive" /></p>
+                                <p align="center"><b>Jos Scheffelaar</b></p>
+                            </div></a>
+                    </div>
+                    <div class="spcae-width-clear-fix"></div>
+                </div>
+                <div class="spcae-width-clear-fix"></div>
+            </div>
+
+            <section class="sector">
+
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-md-12">
+                            <div id="home" class=" fade in  vprofile">
+
+                                <p>	Vijay’s professional career spanned over 35 years, where he served last at NIIT Technologies Limited, as Senior Vice President – Head of Strategic Initiatives, Consulting and Advisory Services. He had also been their Chief Innovation Officer, Head of e-Business Consulting, Global Head of Retail Practice, and Head of Quality during his 26-year career with them. 
+                                </p>   <br/>
+                                <p>
+                                    He graduated as a mechanical engineer in 1981 and started his career with Unilever in India, designing and building high-speed packaging machines.
+                                </p>   <br/><p>
+                                    Passionate about Design Thinking and its application to real life issues, Vijay consults and facilitates its application in business, and teaches it in executive programs and in EMBA, MBA, and undergraduate engineering programs. 
+                                </p>   <br/><p>
+                                    He teaches design thinking, problem solving and consulting skills at business schools and universities in India. He is visiting Professor of Design Thinking at Hult International Business School at its Shanghai campus. He facilitates in-company executive workshops and mentors building of in-house capability for product and service design thinking, managing and nurturing innovation. 
+                                </p>   <br/><p>
+                                    Consulting and facilitating clients in promoting innovation and managing change he leverages the principles and tools of design thinking, adapting them to the context. Of special interest to him are employee engagement and customer engagement strategies, creation and improvement of human-centred products and services, and elimination of process complexity to deliver memorable experiences.
+                                </p>   <br/><p>
+                                    Vijay’s consulting engagements over two decades span industries ranging from financial to industrial goods, healthcare to hospitality, airlines to automotive, and increasingly, start-ups.
+                                </p>
+
+
+                            </div>
+                            <div id="menu1" class="fade in  vprofile">
+                                <p>Ajit Mulla is a Human Process and Change facilitator in the areas of leadership, teamwork, personal effectiveness, performance management, coaching & mentoring, change management and Organization Development. His clients include several family owned as well as professional Indian organizations, as also multinational corporations - across industry sectors in the Asian geography.
+                                </p>  <br/>
+                                The major part of Ajit's HR organizational experience of 23 years was gained at ITC Limited in various roles – as Training Manager in its Corporate Head Office, as an Internal Consultant with ITC's Manpower Development Group, as the Head of Organizational Development for its Tobacco Division, as also its major factories in Bangalore and Saharanpur. 
+                            </p>   <br/><p>
+                            Ajit has also been the Vice President - HR with Punjab Anand Batteries Limited, Chandigarh and was responsible for setting up the Human Resource Management systems at Surya Tobacco Company in Nepal.
+                        </p>   <br/><p>
+
+                            Ajit completed his BA (Honours) in History from St Stephen's College, Delhi and his Masters in Modern History from Delhi University. He is a certified Assessment Centre assessor from Saville & Holdsworth, U.K. He is also an accredited facilitator for both the MBTI as well as the FIRO – B psychometric instruments. </p>
+
+                    </div>
+                    <div id="menu2" class="fade in vprofile">
+                        <p> Jos Scheffelaar is a European entrepreneur who moved to Boston more than 20 years ago after working in High Tech in several countries in Europe and in Asia. </p>  <br/>
+                        <p>
+                            Building on his international skills and experience, and his extensive personal network, he co-founded Launch in US Alliance, a company helping international entrepreneurs launch their business in the U.S. Also, Jos a Founding Board Member of Kendall-Teams, a hands-on market exploration program for international emerging companies, which are seriously considering entering the US market. This is a spin-off from the MIT eTeams program for international start-ups where Jos was one of the members of the organizing team (2011-2014).</p>  <br/>
+                        <p>
+                            He is frequently invited by international organizations as guest lecturer to give his unique international perspective on American entrepreneurship and U.S. market entry for international companies. Jos participates in the national programs of several European countries promoting entrepreneurship, and gives guest-lectures and workshops at international universities.
+                            Jos is a long-time member of TiE Boston, and regularly visits India.</p>   <br/>
+                        <p>
+                            He holds a Masters Degree in Electrical Engineering from the Technical University Delft in the Netherlands.
+                        </p>
+                    </div>
+
+
+                </div> 
+            </div>
+        </div>
+
+    </section>
+
+    <div class="container" style="margin-bottom:30px ; margin-top:30px;">
+        <div class="row">
+            <div class="col-md-12">
+
+                <a class="menu3" > <div class=" col-md-4">	<p align="center"><img src="img/team/m.png" class="img-responsive" /></p>
+                        <p align="center"><b>Mahesh Enjeti</b></p>
+                    </div> </a>
+                <a class="menu4" > 	<div class=" col-md-4"><p align="center"><img src="img/team/p.png" class="img-responsive" /></p>
+                        <p align="center"><b>Dr. P.V. IIavarasan </b></p>
+                    </div>
+                </a>
+                <a class="menu5" > <div class=" col-md-4">	<p align="center"><img src="img/team/t.png" class="img-responsive" /></p>
+                        <p align="center"><b>Todd</b></p>
+                    </div></a>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <br/>
+    <section class="sector-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="menu3" class="in fade vprofile">
+                        <p> Mahesh Enjeti, Managing Director of SAI Marketing Counsel and Advisor, Bubblefish Creative Brand Building combines the best in management consulting to create sustainable profits for clients’ businesses ,Over four decades ,Mahesh has worked with hundreds  of brands across every conceivable sector.
+                        </p>
+                        <br/>  
+                        <p>
+                            These include names such as allergen coromandel  international, DCM,DOLBY, Hawkins cookers,
+                            Hunter regional economic development  Indian overseas  bank ,ITC hotels, LG, Maccium Norfolk island tourism sherton ,  TABCORP, The George institute for global health , tourism Australia ,tourism Tasmania,VISA and more. </p>
+                        <br/>
+                        <p>Since 2014, Mahesh has worked closely with Bubble fish  in building  brands for a naturally flavoured  water
+                            (Sol QUENCH and Sol ESPRIT)a boutique operations management consultancy  (ORBIZ performance specialist) a bubble tea franchise operation(Queen Tea) and a home –grown ,all natural ,west African hair And skin beauty range (Pure Persona ) .</p>
+                        <br/>
+                        <p> Mahesh has won awards for marketing effectiveness and excellence in New York, Honk Kong , Singapore and Sydney has been published worldwide (e.g. Market Leader ,UK, professional marketing Australia ,CMO Council and HSMAI marketing  review , (USA).</p>
+                        <br/>
+                        <p>	Mahesh teaches leaderships ,strategy ,marketing entrepreneurship while also mentoring students  undertaking practical business projects at the Sydney Graduate school of management  a part of Western Sydney  University . He is involved as Strategy Lead in the 5- day executive development programme  for Visiting c-suite managers from  Malaysia .</p>
+                        <br/>
+                        Mahesh has served on the Board of the Australian marketing institute and on the judging panel of the AMI awards for marketing  excellence over several  years . In 2016 ,he also judged entries to the Stevie International Business Awards .the year saw Mahesh chosen as a regional finalist in the Business  leader category at the New South Wales  business Chamber Awards 2016 .</p>  <br/>
+                        <p>With an honours degree in  physics and PGDM from IIM Calcutta , Mahesh is also a fellow of the Australian Institute of Management ,fellow of Australian marketing institute and a member of the UK Marketing  society and the Australian market and social Research Society .</p>  <br/>
+
+
+                    </div>
+
+                    <div id="menu4" class=" in fade vprofile">
+                        <p>
+                            He researches and teaches about production and consumption of information and communication technologies (ICTs) with a special focus on India. His specific research interests are Information and Communication Technologies & Development (ICTD); Indian IT industry; and Social Media. Presently he is teaching Management Information Systems, E-Commerce, Social Media and Market Research Methods.</p><br/>
+                        <p>
+                            Dr. Ilavarasan is a recipient of the Outstanding Young Faculty Fellowship Award at IIT Delhi and Prof. M.N. Srinivas Memorial Prize of the Indian Sociological Society. He is also recipient of research grants from IDRC (Canada), Govt. of India, Oxford Analytica (UK), IPTS (European Commission) and IdeaCorp. (Philippines). 
+                            Earlier, he had taught at Pondicherry Central University and Indian Institute of Management, Rohtak.</p><br/>
+                        <p>	Dr. Ilavarasan is an active contributor in the international journals and conferences of repute and has several publications to his name.</p>
+                    </div>
+                    <div id="menu5" class="in fade vprofile">
+                        <p>A Customer Discovery & Product Development pro with 20+ years marketing and business development experience in high tech industries like learning & development (Element K, Kaplan), medical devices & solutions (Getinge), and medical imaging (Kodak/Carestream Health). </p><br/>
+                        <p>Todd's corporate roles have been in B2B Marketing, particularly in business development, product  marketing, and new product commercialization.  Todd is also keenly enthusiastic about innovation,  disruption, and people with the audacity, vision and leadership to change their world. He brings oversights in being a lead catalyst for creating and growing the partnerships, alliances, and communities with  our personalized learning products.</p><br/>
+                        <p>Todd is on our panel from our key partner Matrixinsights.</p>
+                        <div class="col-md-12"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" style="    margin-top: 10px;">
+                <a class="menu6" > <div class=" col-md-4">	<p align="center"><img src="img/team/ajay.png" class="img-responsive" /></p>
+                        <p align="center"><b> Ajay Dayal</b></p>
+                    </div> </a>
+                <a class="menu7" > 	<div class=" col-md-4"><p align="center"><img src="img/team/Somesh.png" class="img-responsive" /></p>
+                        <p align="center"><b> Somesh</b></p>
+                    </div>
+                </a>
+				<a class="menu8" > 	<div class=" col-md-4"><p align="center"><img src="img/team/ManojVirmani.png" class="img-responsive" /></p>
+                        <p align="center"><b> Manoj Virmani</b></p>
+                    </div>
+                </a>
+
+
+
+            </div>
+        </div>
+
+    <section class="sector-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="menu6" class="in fade vprofile">
+                        <p>Ajay Dayal specializes in Business Process Re-engineering, vectorial alignment of Managers for Momentum and unleashing people potential through Self Directed Teams. <br/>
+                            He has provided consulting solutions to over 200 companies spanning industry leaders and specialist firms. <br/>
+                            Ajay helps build Process Based Organizations. Ajay is an alumnus of IIT Kanpur, and also the founder and CEO of PBOPlus Consulting Services
+                        </p>
+                        <div class="col-md-12"></div>
+                    </div>
+                    <div id="menu7" class="in fade vprofile">
+                        <p>Somesh has been very closely associated with the business of Technology across several sectors over the 3 decades he spent engaging with Industry and the Governments. His expertise in the territory of strategy and infrastructure to serve and expand markets and customer bases is now benefiting clients.  <br/>
+                            He advises businesses helping them increase business through customer success. <br/><br/>
+                            His professional experience has been as   Senior Director, Oracle India, Microsoft, NIIT and with the telecom sector.<br/><br/>
+                            Creating transformative results using IT; marketing hardware and software products, to help dramatically improve business outcomes, helping improve business and governance effectiveness and Distribution and Channel Management  are areas he is areas of work interest. <br/><br/>
+                            Somesh did his Engineering from Delhi College of Engineering and his MBA from IIM –Calcutta and is passionate about his golf.  <br/>
+                        </p>
+                        <div class="col-md-12"></div>
+                    </div>
+                    <div id="menu8" class="in fade vprofile">
+                        <p>Manoj has been through the evolution and maturing of the Indian hospitality sector. He has spent 40 years of his career at ITC, one of India’s strong and enduring corporate brands, with their hospitality business. He served multiple layers of professional exposure and responsibilities which spanned operations, Quality, Organizational capacity building, Business Excellence, Multiple partnership and Franchise Management, Hotel Launches, Customer & Loyalty Management amongst others. His last years were as the Vice President across varied roles in the above areas.<br/><br/>
+                            Entrusted with responsibilities across geographical regions and several years at the company headquarters provided a crucial orientation to managing dynamics in varied ecosystems and stakeholder management.
+							<br/><br/>
+                            Amongst his satisfying memories is the earliest introduction of Six Sigma Quality into several processes in Business Operations. This was a first in the Indian hospitality industry.<br/><br/>
+                            He has been an alumni of illustrious collegiate institutions of Cornell, IHM. Well travelled, he now advises several companies including the Ministry of Tourism, FHRAI on business, process and change management areas.<br/>
+                        </p>
+                        <div class="col-md-12"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	    </div>
+	    <div class="container" style="margin-bottom:30px ; margin-top:30px;">
+        <div class="row">
+            <div class="col-md-12" style="    margin-top: 10px;">
+
+                <a class="menu9" > <div class=" col-md-4">	<p align="center"><img src="img/team/Murali.png" class="img-responsive" /></p>
+                        <p align="center"><b> Muralidharan</b></p>
+                    </div> </a>
+
+
+
+
+            </div>
+        </div>
+    </div>
+	    <section class="sector-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="menu9" class="in fade vprofile">
+                        <p>Muralidharan has close to 30 years’ experience in Sales, Marketing & Strategy. He has worked in senior management roles at HT Media, ABP & Sterling Resorts.  <br/><br/>
+                            In his capacity as an Associate Vice President & National Sales Head at HT Media he managed pan-India teams. He was part of the senior leadership team which launched Mint, an HT Media & Wall Street Journal (WSJ) initiative. He developed the entire business side architecture for the then-to-be-launched Mint.<br/><br/>
+                            His close working relationship with WSJ gave him a ringside view of global best practices in advertising sales. Interactions with marketing heads across various industries helped him understand the thought behind many brilliant marketing strategies & communication employed by different sectors to attract consumers. <br/><br/>
+							He is the co-founder of Mindworx Advisory, a strategic consulting firm which helps organisations achieve sustainable growth by supporting them, in both strategic as well as operational issues.
+							
+                        </p>
+                        <div class="col-md-12"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+
+
+
+
+
+
+<br/>
+<br/>
+<!--Head Wrap End-->
+
+<div class="row" >
+    <div class="col-sm-12 endcontainer">
+        <div class="container">
+            <div class="col-sm-6 test we "  ><p> We'd like to hear from you about </p></div>
+            <div class="col-sm-6 " >
+
+                <a href="experts-form.php"><button type="button" class="btn btn-danger">Consultants & Trainers</button> </a> 
+                <a href="partners-form.php"><button type="button" class="btn btn-danger">Partnerships</button></a>
+                <a href="contact.html"> <button type="button" class="btn btn-danger"> Your Needs </button></a></div>
+
+
+        </div> 
+    </div>
+
+</div>
+
+</div>
+
+<div class="clear"></div>
+<!--Above Footer End-->
+<div class="clear"></div>
+<!--Above Footer Start-->
+<div id="footer">
+    <div class="container" >
+        <div id="foot_wrap">
+
+            <div id="foot_top"></div>
+
+
+            <div class="footmenu">	
+
+                <div class="row">
+                    <div class="col-sm-2 padding_zero" id="align_for_mobile">
+
+                        <div class="heading"><a href="index.html">Home</a></div>
+
+                    </div>
+                    <div class="col-sm-2 padding_zero  footer_width" id="align_for_mobile">
+
+                        <div class="heading"><a href="About-us.html">About us</a></div>
+                        <ul>
+                            <li><a href="goal.html">Goals</a></li>
+                            <li><a href="team.html">Team</a></li>
+                            <li><a href="key-business.html">Key Business Areas	</a></li>
+
+                            <li><a href="partners.html">Partners</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-2 padding_zero  " id="align_for_mobile">
+                        <div class="heading"><a href="bc.html">Our Services</a></div>
+                        <ul>
+                            <li><a href="bc.html">Business Consulting</a></li>
+                            <li><a href="me.html">Market Entry Services</a></li>
+                            <li><a href="hsc.html">Human Capital Solutions</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="col-sm-2 padding_zero " id="align_for_mobile">
+
+                        <div class="heading"><a href="sectors.html">Sector</a></div>
+                        <ul>
+                            <li><a href="sectors.html">Skills & Education</a></li>
+                            <li><a href="sectors.html">Healthcare</a></li>
+                            <li><a href="sectors.html">Hospitality & Travel Services</a></li>
+
+                            <li><a href="sectors.html">Manufacturing</a></li>
+                            <li><a href="sectors.html">Retail</a></li>
+                            <li><a href="sectors.html">Energy Sector</a></li>
+                            <li><a href="sectors.html">BFSI</a></li>
+                            <li><a href="sectors.html">SMB</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-2 padding_zero " id="align_for_mobile">
+
+                        <div class="heading">Contact us:</div>
+                        <div class="presence">
+                            <p>
+                                India Office:<br>
+                                H - 18,  First Floor <br>
+                                Greater Kailash - 2<br>
+                                New Delhi, India-110048
+                            </p>
+                            <p>
+                                <br>US Office:<br>
+                                Varco Global Solutions<br>
+                                P.O.Box 382<br>
+                                Westford, MA-01886
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-2 padding_zero  " id="align_for_mobile">
+                        <div class="heading">Call us</div>
+                        <div class="callus presence">
+                            <p>
+                                India: +91 9818 922 228<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91 11 4143 7802<br>
+                                US: &nbsp;&nbsp;&nbsp;&nbsp;+1 978 692 6361
+                            </p>
+                            <p><br>
+                                <span class="heading">Email us:</span><br>
+                                sales@varcogs.com<br>
+                                business@varcogs.com
+                            </p>
+                        </div>
+                        <p align="right"><img src="img/the-one-design.png" /></p>
+                    </div>
+
+
+
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+            <div id="foot_bottom">
+                <p>&#64; 2016 Varco Global Solutions. All Rights Reserved.  <a href="policies.html" >Privacy Policies</a></p> 
+            </div>
+        </div>
+    </div>
+</div>
+<!--Above Footer End-->
+</div>
+<script src="js/jquery.bxslider.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.sticky-kit.min.js"></script>
+<script src="js/clientlibs1.min.js"></script>
+<script src="js/clientlibs.min.js"></script>
+</body>
+
+
+</html>
